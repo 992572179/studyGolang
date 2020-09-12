@@ -1,0 +1,15 @@
+2019-12-30 17:26:20
+
+create table on student(
+id int
+name varchar
+)
+
+public class Student{
+int id;
+string name;
+}
+
+Student stu = new Student();
+stu.setName("lisi");
+session.save(stu);
